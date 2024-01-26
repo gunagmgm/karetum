@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "my-app",
+    "slug": "my-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "education",
+    "icon": "App/assets/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "App/assets/adaptive-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugin": [
+      "@react-native-google-signin/google-signin"
+    ],
+    "ios": {
+      "bundlerIdentifier": "com.navin0309.my_app",
+      "supportsTablet": true,
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLTypes": [
+              "com.googleusercontent.apps.873767065895-1n9bibf2s241g00uc599h1sejh1fksf6"
+            ]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "com.navin0309.my_app",
+      "adaptiveIcon": {
+        "foregroundImage": "App/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "App/assets/adaptive-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "44205c3e-d21e-4f94-8ca0-1371b97bb6e0"
+      }
+    }
+  }
+}
